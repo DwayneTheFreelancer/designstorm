@@ -47,7 +47,7 @@ return [
             'database' => env('DB_DATABASE', 'designstorm'),
             'username' => env('DB_USERNAME', 'b7724f97937c34'),
             'password' => env('DB_PASSWORD', '52deb75d'),
-            'unix_socket' => env('DB_SOCKET', '/Applications/MAMP/tmp/mysql/mysql.sock'),
+            'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix' => '',
