@@ -1,0 +1,31 @@
+#admin-section {
+    // #projects {
+
+    // }
+    table {
+        display: table;
+        width: 100%;
+        thead {
+            background-color: grey;
+            th {
+                border: 1px solid black;
+            }
+        }
+        tbody {
+            td {
+                border: 1px solid black;
+                text-align: center;
+                .edit-btn {
+                    font-size: 12px;
+                    padding: 10px 20px;
+                    background: green;
+                    display: inline-block;
+                    border-radius: 3px;
+                }
+            }
+        }
+        th, td {
+            padding: 10px 20px;
+        }
+    }
+}
